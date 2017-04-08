@@ -42,7 +42,7 @@ nav{
 }
 .open .logo,
 nav.solid #logo .logo {
-  background-image: url(./img/icon/laboratoria.svg);
+  background-image: url(../img/logo_laboratoria-09.svg);
 }
 .logo img{
   z-index: 1000;
@@ -250,11 +250,55 @@ figure:hover+span {
     left: 0;
     z-index: 10000;
 }
-/*div.contenedor-imagen:hover{
-	opacity: 1;
-	background-color:rgba(247, 182, 23, 0.81) !important;
-	transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
-}*/
+/**/
+.text-celeste{
+ 	color: lightblue;
+}
+.text-white{
+	color: white;
+}
+.text-red{
+	color: red;
+}
+.tex-yellow{
+	color: yellow;
+}
+
+header{
+	height: 500px;
+  	background: gray;
+  	color: #fff;
+  	font-family: monospace;
+  	padding-top: 5em;
+  	display: flex;
+  	justify-content: center;
+}
+.typewriter{
+	margin-top: 200px;
+}
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 
 
 
